@@ -44,7 +44,7 @@ const Box = () => {
         </div>
         <div className="w-full md:w-1/2 h-[400px] bg-[#805ad5] mx-3 p-10 rounded-[30px] shadow-md flex flex-col justify-center items-center">
           <p className="text-lg md:text-xl text-white text-center mb-6">
-            Saving in dollars hits different when you're winning with your squad.
+            Saving in dollars hits different when you&apos;re winning with your squad.
           </p>
           <div className='flex justify-center items-center w-full'>
           <Link href="/waitlist-form"><Button buttonColor="black" text="Join waitlist" color="white" border="none" borderColor="transparent"/></Link>
