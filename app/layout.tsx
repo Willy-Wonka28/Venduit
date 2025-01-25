@@ -11,17 +11,18 @@ export default function RootLayout({children}: {children: ReactNode}){
             className="invert"
             src="/images/logo white.svg"
             alt="venduit-icon"
-            width={250}
-            height={250}
+            width={150}
+            height={150}
                         />
             </header>
                 {children}
-                <footer className="text-white bg-black mt-auto">
+                <footer className="text-white bg-black my-auto">
                 <Image 
+                        className="my-[15px]"
                         src="/images/logo white.svg"
                         alt="venduit-icon"
-                        width={250}
-                        height={250}
+                        width={150}
+                        height={150}
                         />
                     {/* icons */}
                     <div className="ml-[30px]">

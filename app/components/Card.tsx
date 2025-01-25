@@ -14,9 +14,9 @@ function Card({ cardH1, cardH2, cardBio, imageAlt, imageSrc, bgColor }: CardProp
   return (
     <div
     style={{ backgroundColor: bgColor }}
-    className="flex flex-col w-full lg:flex-row p-6 lg:p-10 rounded-xl shadow-lg max-w-4xl mx-auto justify-center items-center mt-12 lg:mt-[100px] mb-16 lg:mb-[100px]">
+    className="flex flex-col w-full lg:flex-row p-6 lg:p-10 rounded-xl max-w-4xl mx-auto justify-center items-left mt-12 lg:mt-[100px] mb-16 lg:mb-[100px]">
       {/* Card Image */}
-      <div className="w-full flex justify-center items-center lg:w-1/2 rounded-lg overflow-hidden">
+      <div className="w-full flex justify-center items-left lg:w-1/2 rounded-lg overflow-hidden">
         <Image
           src={imageSrc}
           alt={imageAlt}
@@ -27,7 +27,7 @@ function Card({ cardH1, cardH2, cardBio, imageAlt, imageSrc, bgColor }: CardProp
       </div>
 
       {/* Card Content */}
-      <div className="w-full pl-7 lg:w-1/2 text-center lg:text-left">
+      <div className="w-full pl-7 lg:w-1/2 text-left">
         <h1 className="text-purple-600 text-sm font-semibold uppercase mb-2">
           {cardH1}
         </h1>
