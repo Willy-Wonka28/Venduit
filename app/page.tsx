@@ -9,13 +9,13 @@ export default function Page() {
   return (
     <>
       {/* Hero Section */}
-      <div className="flex flex-col lg:flex-row items-center justify-around px-4 lg:px-30 lg:ml-20 py-6">
+      <div className="flex flex-col lg:flex-row items-center mt-[100px] md:mt-3 lg:mt-0 justify-around px-4 lg:px-30 lg:ml-20 py-6">
         {/* Left Content */}
         <div className="text-center lg:text-left max-w-lg">
           <h1 className="text-3xl lg:text-7xl font-medium font-serif leading-tight">
             Save and invest<br /> in <span className="text-[#805ad5]">dollars</span>.
           </h1>
-          <h3 className="font-medium text-base lg:text-lg mt-4">
+          <h3 className="text-base lg:text-lg mt-4">
             Protect your money from inflation, unlock global investment opportunities, and build wealth with your Squad.
           </h3>
           <div className="mt-6">
@@ -38,7 +38,7 @@ export default function Page() {
       </div>
 
         <div className="flex items-center w-full justify-center mt-8">
-           <h1 className='text-3xl w-[75%] lg:text-5xl font-medium font-serif leading-tight text-center text-wrap'>
+           <h1 className='text-[21px] w-[75%] lg:text-5xl font-medium font-serif leading-tight text-center text-wrap'>
            Join the waitlist today and get exclusive early access to the future of saving and investing in Africa.
            </h1> 
         </div>
