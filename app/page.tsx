@@ -19,7 +19,7 @@ export default function Page() {
             Protect your money from inflation, unlock global investment opportunities, and build wealth with your Squad.
           </h3>
           <div className="mt-6">
-            <Link href="/waitlist-form"><Button buttonColor="#805ad5" text="Join waitlist" color="white" border="none" borderColor="transparent"/></Link>
+            <Link href="/waitlist-form"><Button buttonColor="#805ad5" text="Join waitlist" color="white" boxShadow='none'/></Link>
           </div>
         </div>
 

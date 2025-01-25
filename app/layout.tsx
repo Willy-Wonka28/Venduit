@@ -13,6 +13,7 @@ export default function RootLayout({children}: {children: ReactNode}){
             className="invert"
             src="/images/logo white.svg"
             alt="venduit-icon"
+            layout="responsive"
             width={150}
             height={150}
                         />
@@ -25,8 +26,8 @@ export default function RootLayout({children}: {children: ReactNode}){
                         className="my-[15px]"
                         src="/images/logo white.svg"
                         alt="venduit-icon"
-                        width={150}
-                        height={150}
+                        width={100}
+                        height={100}
                         />
                 </Link>
                     {/* icons */}

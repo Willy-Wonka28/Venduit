@@ -47,7 +47,7 @@ const Box = () => {
             Saving in dollars hits different when you&apos;re winning with your squad.
           </p>
           <div className='flex justify-center items-center w-full'>
-          <Link href="/waitlist-form"><Button buttonColor="black" text="Join waitlist" color="white" border="none" borderColor="transparent"/></Link>
+          <Link href="/waitlist-form"><Button buttonColor="black" text="Join waitlist" color="white" boxShadow="none"/></Link>
           </div>
           </div>
         </div>
