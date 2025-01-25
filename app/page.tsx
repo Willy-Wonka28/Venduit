@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <>
       {/* Hero Section */}
-      <div className="flex flex-col lg:flex-row items-left justify-around px-4 lg:px-30 lg:ml-20 py-6">
+      <div className="flex flex-col lg:flex-row items-center justify-around px-4 lg:px-30 lg:ml-20 py-6">
         {/* Left Content */}
         <div className="text-center lg:text-left max-w-lg">
           <h1 className="text-3xl lg:text-7xl font-medium font-serif leading-tight">
@@ -47,7 +47,7 @@ export default function Page() {
       <Card 
         cardH1="INFLATION-PROOF"
         cardH2="Save in Dollars"
-        cardBio="Secure your savings and hedge against inflation with competitive dollar-saving rates. Set your savings goals and crush them. Start with as little as $5"
+        cardBio="Secure your savings and hedge against inflation with competitive dollar-saving rates. Set your savings goals and crush them. Start with as little as $5."
         imageAlt="coin jar"
         imageSrc="/images/unsplash_0ITvgXAU5Oo.svg"
         bgColor="#805ad51A"

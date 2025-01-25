@@ -1,12 +1,14 @@
 import {ReactNode} from "react";
 import '@/app/globals.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function RootLayout({children}: {children: ReactNode}){
     return(
         <html lang="en">
             <body className="min-h-screen flex flex-col">
             <header>
+            <Link href="/">
             <Image 
             className="invert"
             src="/images/logo white.svg"
@@ -14,9 +16,11 @@ export default function RootLayout({children}: {children: ReactNode}){
             width={150}
             height={150}
                         />
+            </Link>
             </header>
                 {children}
                 <footer className="text-white bg-black my-auto">
+                <Link href="/">
                 <Image 
                         className="my-[15px]"
                         src="/images/logo white.svg"
@@ -24,6 +28,7 @@ export default function RootLayout({children}: {children: ReactNode}){
                         width={150}
                         height={150}
                         />
+                </Link>
                     {/* icons */}
                     <div className="ml-[30px]">
                     <div className="flex w-[75px] justify-around items-center">
